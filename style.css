@@ -1,0 +1,128 @@
+body{
+	background: #B4C2D3;
+
+}
+#container{
+	display: block;
+	flex-wrap: wrap;
+}
+#header{
+	background: #096B91;
+	height: 14.5%;
+	width: 98%;
+	left: 1%;
+	position: absolute;
+	display: flex-wrap;
+	border-radius: 7px;
+	border:2px solid #90AFD2;
+}
+
+.header img{
+	align: center;
+	display: inline-block;
+	 height: 80.3% ;
+	margin: 11.3px;
+	position: relative;
+	
+}
+.text{ 
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	color: white;
+	font-size: 70px;
+ }
+
+#top-menu{
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: center;*/
+	align-items: center;
+	position: absolute;
+	background: lightgray;
+	top: 16%;
+	height: 4.3%;
+	width: 98%;
+	left: 1%;
+	border-radius: 7px;
+	border:2px solid #90AFD2;
+}
+.leftside{
+	justify-content: center;
+	align-content: center;
+	font-size: 20px;
+	margin-left: 35px;
+	border-radius: 7px;
+	border:2px solid #90AFD2;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#content{
+	float: right;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	top: 21%;
+	width: 72%;
+	height: 67%;
+	right: 1%;
+	background: lightgray;
+	position: absolute;
+	border-radius: 7px;
+	border:2px solid #90AFD2;
+}
+#content_form{
+	\\display: flex;
+	flex-wrap: wrap;
+	top: 21%;
+	width: 98%;
+	height: 67%;
+	right: 1%;
+	background: lightgray;
+	position: absolute;
+	border-radius: 7px;
+	border:2px solid #90AFD2;
+}
+#side-menu{
+	float: left;
+	display: block;
+	background: gray;
+	align-items: center;
+	top: 21%;
+	width: 25.3%;
+	height: 67%;
+	left: 1%;
+	position: absolute;
+	border-radius: 7px;
+	border:2px solid #90AFD2;
+}
+.barinfo img{
+	align: center;
+	width: 93%;
+	margin: 8px;
+	position: relative;
+	display: inline-block;
+}
+#footer{
+	display: flex;
+	position: absolute;
+	flex-wrap: wrap;
+	bottom: 1%;
+	width: 98%;
+	left: 18px;
+	height: 10%;
+	background: gray;
+	border-radius: 7px;
+	border:2px solid #90AFD2;
+}
+.footertext{
+	position: relative;
+	margin: 10px;
+	color: white;
+	font-size: 40px;
+}
+
+.form-pole{
+width: 100px;
+}
