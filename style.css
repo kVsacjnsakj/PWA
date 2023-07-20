@@ -33,7 +33,7 @@ body{
 	font-size: 70px;
  }
 
-#top-menu{
+.top-menu{
 	display: flex;
 	flex-wrap: wrap;
 	/*justify-content: center;*/
@@ -57,7 +57,7 @@ body{
 	padding-left: 5px;
 	padding-right: 5px;
 }
-#content{
+.content{
 	float: right;
 	display: flex;
 	flex-wrap: wrap;
@@ -72,7 +72,7 @@ body{
 	border-radius: 7px;
 	border:2px solid #90AFD2;
 }
-#content_form{
+.content_form{
 	\\display: flex;
 	flex-wrap: wrap;
 	top: 21%;
@@ -84,7 +84,7 @@ body{
 	border-radius: 7px;
 	border:2px solid #90AFD2;
 }
-#side-menu{
+.side-menu{
 	float: left;
 	display: block;
 	background: gray;
@@ -104,7 +104,7 @@ body{
 	position: relative;
 	display: inline-block;
 }
-#footer{
+.footer{
 	display: flex;
 	position: absolute;
 	flex-wrap: wrap;
